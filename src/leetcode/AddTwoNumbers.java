@@ -11,7 +11,6 @@ import org.junit.Test;
     原因：342 + 465 = 807
 */
 public class AddTwoNumbers {
-	
 	 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 	        ListNode c1 = l1;
 	        ListNode c2 = l2;      //获取传入的参数l1,l2，交由c1,c2来操作
