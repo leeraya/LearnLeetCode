@@ -35,7 +35,10 @@ public class CheckPalindrome {
 		}
 		return true;
 	}
-	
+	/*
+	 * 回文字符串的验证一般都是用双指针的的方式，首尾向中间聚集，依次验证。
+	 * 如果有特殊要求：比如不管空格，, .等特殊字符，直接通过指针加一跳过即可
+	 */
 	@Test
 	public void test1(){
 		String s = "A man, a plan, a canal: Panama";
