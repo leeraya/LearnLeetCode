@@ -27,7 +27,7 @@ public class TriangleMinValue {
 				int left = triangle.get(j - 1).get(i);
 				int right = triangle.get(j - 1).get(i + 1);
 				int minTotal = Math.min(root + left, root + right);
-				triangle.get(j - 2).set(i, minTotal);
+				triangle.get(j - 2).set(i, minTotal);	//将求得得最小值更新到节点上
 			}
 		}
 		return triangle.get(0).get(0);
