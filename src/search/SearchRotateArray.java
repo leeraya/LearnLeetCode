@@ -29,7 +29,6 @@ public class SearchRotateArray {
 				return nums[i] < res ? nums[i] : res;
 			}
 		}
-
 		return res;
 	}
 
