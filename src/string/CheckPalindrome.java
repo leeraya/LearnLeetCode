@@ -19,13 +19,14 @@ public class CheckPalindrome {
 	
 	//写判定回文的方法
 	private boolean check(String s){
-		s = s.toLowerCase();
+		s = s.toLowerCase();		//先全部转成小写，以后就不用验证大小写了。
 		int len = s.length();
 		int low = 0, high = len - 1;
 		while(low <= high){			//这里=的情况是长度小于2时的
-			if(s.charAt(low) == s.charAt(high)){
-				low++; high--;
+			if(s.charAt(low) == s.charAt(high)){	//如果左右相等，则都向中心移动
+				low++; high--;					
 			}else if(!Character.isLetterOrDigit(s.charAt(low))){
+				//如果不相等，则判断它是不是除数字或字符以外的字符，如果是则继续向中心移动
 				low++;
 			}else if(!Character.isLetterOrDigit(s.charAt(high))){
 				high--;
@@ -44,5 +45,6 @@ public class CheckPalindrome {
 		String s = "A man, a plan, a canal: Panama";
 		String s1 = "a.";
 		System.out.println(isPalindrome(s1));
+		System.out.println(s);
 	}
 }
