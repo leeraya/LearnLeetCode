@@ -27,8 +27,7 @@ package array;
  * 
  */
 public class ShortestUnsortedContinuousSubarray {
-	public int findUnsortedSubarray(int[] nums) 
-    {
+	public int findUnsortedSubarray(int[] nums) {
         int n = nums.length;
         int beg = -1;
         int end = -2; // end is -2 is because it works if the array is already in ascending order
