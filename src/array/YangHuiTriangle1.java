@@ -28,7 +28,10 @@ public class YangHuiTriangle1 {
 	
 	@Test
 	public void test1(){
-		List<List<Integer>> res = generate(5);
+		long start = System.nanoTime();
+		List<List<Integer>> res = generate(20);
+		long end = System.nanoTime();
+		System.out.println((end - start)/1000);
 		System.out.println(res);
 	}
 }
