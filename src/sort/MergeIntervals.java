@@ -21,8 +21,8 @@ public class MergeIntervals {
 	public List<Interval> merge(List<Interval> intervals) {
 		if (intervals == null || intervals.size() == 0)
 			return intervals;
-		
-		//按照区间的start大小进行升序排列
+
+		// 按照区间的start大小进行升序排列
 		Collections.sort(intervals, new Comparator<Interval>() {
 
 			@Override
@@ -30,19 +30,20 @@ public class MergeIntervals {
 				return o1.start - o2.start;
 			}
 		});
-		
+
 		List<Interval> res = new ArrayList<Interval>();
-		//先将排好的第一个元素放入res中，然后从第二个遍历intervals。
+		// 先将排好的第一个元素放入res中，然后从第二个遍历intervals。
 		res.add(intervals.get(0));
 		int len = res.size();
-		//遍历的主要目的，是看interval中的元素是否有相交的，如果有相交的，就将该相交的区间的end付给res中的被交元素。
-		//如果没有相交，就将该元素放入res中
-		for(int i = 1; i < intervals.size(); i++){
-			//两个区间有重合或者刚好粘连在一起，则将其合并
-			if(intervals.get(i).start <= res.get(len - 1).end){
-				//注意这里max(),防止是包含的情况如{[1,4],[2,3]}结果是[1,4] 而不是[1,3]
-				res.set(len - 1, new Interval(res.get(len-1).start , Math.max(intervals.get(i).end,res.get(len-1).end)));
-			}else{
+		// 遍历的主要目的，是看interval中的元素是否有相交的，如果有相交的，就将该相交的区间的end付给res中的被交元素。
+		// 如果没有相交，就将该元素放入res中
+		for (int i = 1; i < intervals.size(); i++) {
+			// 两个区间有重合或者刚好粘连在一起，则将其合并
+			if (intervals.get(i).start <= res.get(len - 1).end) {
+				// 注意这里max(),防止是包含的情况如{[1,4],[2,3]}结果是[1,4] 而不是[1,3]
+				res.set(len - 1,
+						new Interval(res.get(len - 1).start, Math.max(intervals.get(i).end, res.get(len - 1).end)));
+			} else {
 				res.add(intervals.get(i));
 				len++;
 			}
@@ -50,6 +51,7 @@ public class MergeIntervals {
 		return res;
 	}
 }
+
 class Interval {
 	int start;
 	int end;
