@@ -44,21 +44,17 @@ public class ValidAnagram {
 		if (s.length() != t.length()) {
 			return false;
 		}
-
 		int[] sInt = new int[26];
 		int[] tInt = new int[26];
-
 		for (int i = 0; i < s.length(); i++) {
 			sInt[s.charAt(i) - 97]++;
 			tInt[t.charAt(i) - 97]++;
 		}
-
 		for (int i = 0; i < 26; i++) {
 			if (sInt[i] != tInt[i]) {
 				return false;
 			}
 		}
-
 		return true;
 	}
 }
