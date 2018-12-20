@@ -190,7 +190,7 @@ public class KthLargest {
 		}
 		// 3.桶内排序
 		for (int i = 0; i < Blist.size(); i++) {
-			java.util.Collections.sort(Blist.get(i));
+			Collections.sort(Blist.get(i));
 		}
 		// 4.合并数据
 		int j = 0;
@@ -206,13 +206,15 @@ public class KthLargest {
 	 */
 	@Test
 	public void test1() {
-		int array[] = new int[10000];
-		for (int i = 0; i < 10000; i++) {
-			array[i] = new Random().nextInt(1000);
+		int array[] = new int[1000];
+		for (int i = 0; i < 100; i++) {
+			array[i] = new Random().nextInt(100);
 		}
 		long start = System.nanoTime();
-		CountNumSort(array);
-		// quickSort(array, 0, array.length - 1);
+//		CountNumSort(array);
+//		 quickSort(array, 0, array.length - 1);
+		 bucketSort(array);
+//		 bucketSort_2(array);
 		long end = System.nanoTime();
 		System.out.println((end - start) / 1000);
 		/*
