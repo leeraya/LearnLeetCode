@@ -13,7 +13,6 @@ public class Palindrome {
 		char[] cs = s.toCharArray();
 		int[] range = new int[] { 0, 1 };	//记录最长回文首尾索引
 		for (int i = 0; i < cs.length; i++) {
-			System.out.println("第" + i + "次调用");	//测试用
 			i = expand2(cs, range, i);
 		}
 		return s.substring(range[0], range[1]);
