@@ -15,12 +15,9 @@ import java.util.List;
  * 
  *          注意数组中可能存在重复的元素。
  * 
- *          示例 1：
+ *          示例 1： 输入: [1,3,5] 输出: 1 <br>
  * 
- *          输入: [1,3,5] 输出: 1 <br>
- *          示例 2：
- * 
- *          输入: [2,2,2,0,1] 输出: 0
+ *          示例 2： 输入: [2,2,2,0,1] 输出: 0
  */
 public class FindRotateArray {
 	public int findMin(int[] nums) {
@@ -32,12 +29,12 @@ public class FindRotateArray {
 				list.add(nums[i]);
 			}
 		}
-		
+
 		int[] tp = new int[list.size()];
 		for (int i = 0; i < list.size(); i++) {
 			tp[i] = list.get(i);
 		}
-		
+
 		int res = tp[0];
 		for (int i = 1; i < tp.length; i++) {
 			if (tp[i] < tp[i - 1]) {
@@ -46,15 +43,16 @@ public class FindRotateArray {
 		}
 		return res;
 	}
-	//--------------------------------------//
+
+	// --------------------------------------//
 	public int findMin_2(int[] nums) {
 
-        int res = nums[0];
-        for(int i = 1; i < nums.length; i++){
-            if(nums[i] < nums[i - 1]){
-                return nums[i] < res ? nums[i] : res;
-            }
-        }
-        return res;
-    }
+		int res = nums[0];
+		for (int i = 1; i < nums.length; i++) {
+			if (nums[i] < nums[i - 1]) {
+				return nums[i] < res ? nums[i] : res;
+			}
+		}
+		return res;
+	}
 }
