@@ -73,6 +73,6 @@ public class PrimeNumbers {
 	@Test
 	public void test() {
 		System.out.println(isPrime(Integer.MAX_VALUE));
-		System.out.println(countPrimes(1500000));
+		System.out.println(countPrimes_2(1500000));
 	}
 }
