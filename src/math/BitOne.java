@@ -19,7 +19,7 @@ public class BitOne {
         	 * 结果就是把n的最低位1去除了
         	 */
             n &= (n-1);
-            count++;
+            count++;//计数
         }
         return count;
     }

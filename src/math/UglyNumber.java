@@ -9,7 +9,7 @@ package math;
  *          丑数就是只包含质因数 2, 3, 5 的正整数。
  */
 public class UglyNumber {
-	// 递归
+	// 递归算法的时间消耗较大
 	public boolean isUgly(int num) {
 		if (num == 0)
 			return false;
@@ -29,7 +29,7 @@ public class UglyNumber {
 		}
 		return false;
 	}
-
+	
 	// 直接将num中的2,3,5因子除去，看最后结果是否为1
 	public boolean isUgly_2(int num) {
 		if (num == 0) {
