@@ -17,8 +17,9 @@ public class LongestIncreasingSquence {
 		int res = 1;
 		dp[0] = 1;
 		for (int i = 1; i < len; i++) {
-			dp[i] = 1;
+			dp[i] = 1; // 初始化
 			int maxDP = 0;
+			//此循环主要是找到当nums[j] < nums[i]时的最大dp值
 			for (int j = 0; j < i; j++) {
 				if (nums[j] < nums[i])
 					maxDP = Math.max(maxDP, dp[j]);
