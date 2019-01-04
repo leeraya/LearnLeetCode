@@ -25,11 +25,11 @@ public class ValidParentheses {
 			if (c == '(' || c == '[' || c == '{') {
 				stack.push(c);
 			} else {
-                if(stack.isEmpty()){
-                    return false;
-                }
+				if (stack.isEmpty()) {
+					return false;
+				}
 				// 如果是对应的括号，则将栈顶的元素弹出
-				if (isRight(stack.peek() , c)) {
+				if (isRight(stack.peek(), c)) {
 					stack.pop();
 				} else {
 					return false;
@@ -51,6 +51,7 @@ public class ValidParentheses {
 			return true;
 		return false;
 	}
+
 	@Test
 	public void test() {
 		System.out.println('{' - ']');
