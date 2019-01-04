@@ -31,6 +31,7 @@ public class BackspaceStr {
 		while (!stack.isEmpty()) {
 			rs += stack.pop();
 		}
+		//清空栈，？有必要？之前已经清空了!
 		stack.clear();
 		for (char c2 : th) {
 			if (c2 == '#') {
