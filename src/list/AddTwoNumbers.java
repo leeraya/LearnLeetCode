@@ -1,4 +1,4 @@
-package leetcode;
+package list;
 
 import org.junit.Test;
 
@@ -57,11 +57,4 @@ public class AddTwoNumbers {
 		 dummy=dummy.next;
 		 System.out.println(dummy.val);
 	 }
-}
-
-//链表节点类
-class ListNode{
-	 int val;
-	 ListNode next;
-	 ListNode(int x) {val = x;}
 }
