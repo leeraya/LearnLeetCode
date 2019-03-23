@@ -19,7 +19,7 @@ public class FlipsMonoIncr {
 		int target = 0, ret = Integer.MAX_VALUE;
 		char ch[] = S.toCharArray();
 		int zero=0,one=0;
-		for (int i = 0; i < ch.length; i++) {
+		for (int i = 0; i < ch.length; ++i) {
 			//统计0，1的总的个数
 			if(ch[i] =='0'){
 				zero++;
@@ -28,13 +28,13 @@ public class FlipsMonoIncr {
 			}
 			
 			// 统计包括该元素的左边的1的个数
-			for (int j = 0; j <= i; j++) {
+			for (int j = 0; j <= i; ++j) {
 				if (ch[j] == '1') {
 					target++;
 				}
 			}
 			// 统计右边的0的个数
-			for(int k = ch.length - 1; k > i;k--){
+			for(int k = ch.length - 1; k > i;--k){
 				if(ch[k] == '0'){
 					target++;
 				}
