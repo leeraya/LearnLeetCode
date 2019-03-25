@@ -33,7 +33,7 @@ public class LevelAverage {
 	 * @return
 	 */
 	public List<Double> averageOfLevels(TreeNode root) {
-		 List<Double> list = new ArrayList<Double>();
+		List<Double> list = new ArrayList<Double>();
         Queue<TreeNode> Q = new LinkedList<TreeNode>();
         Q.add(root);
         while(!Q.isEmpty()){
