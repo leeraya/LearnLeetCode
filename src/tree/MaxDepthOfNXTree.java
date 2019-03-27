@@ -12,7 +12,7 @@ import java.util.Queue;
  *          最大深度是指从根节点到最远叶子节点的最长路径上的节点总数。
  */
 public class MaxDepthOfNXTree {
-	public int maxDepth(Node root) {
+	public int maxDepthT(Node root) {
 		if (root == null)
 			return 0;
 		// 层次遍历
@@ -33,4 +33,14 @@ public class MaxDepthOfNXTree {
 		}
 		return level;
 	}
+	
+	public int maxDepth(Node root) {
+        if(root == null)
+            return 0;
+        int level=1;
+        for(Node nd : root.children){
+            level = Math.max(level,maxDepth(nd)+1);
+        }
+        return level;
+    }
 }
