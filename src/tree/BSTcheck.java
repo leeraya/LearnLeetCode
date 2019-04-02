@@ -15,7 +15,8 @@ import java.util.List;
  */
 public class BSTcheck {
 	public boolean isValidBST(TreeNode root) {
-		inorder(root);
+		inorder(root);// 中序遍历得到序列
+		// 验证序列是否完全升序
 		for (int i = 0; i < list.size() - 1; i++) {
 			if (list.get(i) >= list.get(i + 1))
 				return false;
@@ -28,9 +29,9 @@ public class BSTcheck {
 
 	void inorder(TreeNode t) {
 		if (t == null)
-			return;
+			return;// 终止条件，如果碰到空节点，那么就返回吧
 		inorder(t.left);
 		list.add(t.val);
-		inorder(t.right);
+		inorder(t.right);// 中序标准模板
 	}
 }
