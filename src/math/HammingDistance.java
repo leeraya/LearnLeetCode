@@ -11,8 +11,7 @@ package math;
 public class HammingDistance {
 	public int hammingDistance(int x, int y) {
 		int xor = x ^ y;
-		int oneCount = Integer.bitCount(xor);
-		return oneCount;
+		return Integer.bitCount(xor);
 	}
 	//也可以不用库函数,用位运算，计算x和y异或的结果中有多少个1
 	//有多少个1可以用n&(n-1)来求得
