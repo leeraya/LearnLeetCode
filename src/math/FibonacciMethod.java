@@ -23,6 +23,7 @@ public class FibonacciMethod {
     }
 
     /**
+     *
      * 斐波那契数，通常用 F(n) 表示，形成的序列称为斐波那契数列。该数列由 0 和 1 开始，后面的每一项数字都是前面两项数字的和。也就是：
      *
      * F(0) = 0,   F(1) = 1
@@ -42,5 +43,34 @@ public class FibonacciMethod {
             cache[i] = cache[i-1]+cache[i-2];
         }
         return cache[N];
+    }
+
+    /**
+     * 1137. 第 N 个泰波那契数
+    *泰波那契序列 Tn 定义如下： 
+     *
+     * T0 = 0, T1 = 1, T2 = 1, 且在 n >= 0 的条件下 Tn+3 = Tn + Tn+1 + Tn+2
+     *
+     * 给你整数 n，请返回第 n 个泰波那契数 Tn 的值。
+     *
+     * 来源：力扣（LeetCode）
+     * 链接：https://leetcode-cn.com/problems/n-th-tribonacci-number
+     * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+     */
+    public int tribonacci(int n) {
+        if(n == 0)
+            return 0;
+        if(n == 1)
+            return 1;
+        if(n == 2)
+            return 1;
+        int[] cache = new int[n+1];
+        cache[0] = 0;
+        cache[1] = 1;
+        cache[2] = 1;
+        for(int i = 3;i<=n;i++){
+            cache[i] = cache[i-1]+cache[i-2]+cache[i-3];
+        }
+        return cache[n];
     }
 }
