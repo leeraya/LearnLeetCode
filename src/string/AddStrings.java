@@ -19,15 +19,23 @@ package string;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 public class AddStrings {
-    public String addStrings(String num1, String num2) {
+    public static void main(String[] args) {
+        String s1 = "1";
+        String s2 = "9999";
+        String s = addStrings(s1, s2);
+        System.out.println(s);
+    }
+
+    public static String addStrings(String num1, String num2) {
         StringBuilder res = new StringBuilder();
         boolean flag = false;//有无进位
-        int count = 0;
+
         char[] chars1 = num1.toCharArray();
         char[] chars2 = num2.toCharArray();
         int index1 = chars1.length - 1;
         int index2 = chars2.length - 1;
         while (index1 >= 0 || index2 >= 0) {
+            int count = 0;
             if (index1 >= 0 && index2 >= 0) {
                 if (flag) {
                     count += ((chars1[index1] - '0') + (chars2[index2] - '0') + 1);
@@ -91,6 +99,9 @@ public class AddStrings {
                 }
                 index2--;
             }
+        }
+        if (flag) {
+            res.append(1);
         }
         return res.reverse().toString();
     }
