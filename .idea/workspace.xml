@@ -1,8 +1,225 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c56a61b7-5217-4b3a-92d8-9d12b947497b" name="Default Changelist" comment="">
+    <list default="true" id="c56a61b7-5217-4b3a-92d8-9d12b947497b" name="Default Changelist" comment="niuke">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/NumSmallerByFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list/Reorder_list.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/IsIsomorphic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/BreakArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/BreakArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/ColorSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/ColorSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/CombineTwoArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/CombineTwoArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/ContainDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/ContainDuplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/ContainsNearbyDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/ContainsNearbyDuplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/CreateMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/CreateMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/DeleteSame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/DeleteSame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/DistributeCandies.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/DistributeCandies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/FIndDuplicatesInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/FIndDuplicatesInArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/FindDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/FindDuplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/FindMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/FindMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/FindSingle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/FindSingle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/FindSummit.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/FindSummit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/Flowers.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/Flowers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/IndexSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/IndexSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/Intersection.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/Intersection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/Intersection_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/Intersection_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/IsSubSequene.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/IsSubSequene.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/JumpGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/JumpGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/K_Diff.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/K_Diff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/LengthOfTheLast.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/LengthOfTheLast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/MaxAverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/MaxAverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/MaxConsecutiveOnes.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/MaxConsecutiveOnes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/MinNumberInRotateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/MinNumberInRotateArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/MonotonicArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/MonotonicArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/MoveZero.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/MoveZero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/NextPermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/NextPermutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/OneBit.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/OneBit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/PivotIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/PivotIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/PlusOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/PlusOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/ReOrderArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/ReOrderArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/RemoveElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/RemoveElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/ReshapeMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/ReshapeMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/RotateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/RotateArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/RotateMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/RotateMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/SearchPlaceToInsert.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/SearchPlaceToInsert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/SetZero.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/SetZero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/ShortestUnsortedContinuousSubarray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/ShortestUnsortedContinuousSubarray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/SortParityArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/SortParityArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/SpiralMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/SpiralMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/TheLostNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/TheLostNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/TheMissNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/TheMissNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/TheMissing.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/TheMissing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/TheThirdMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/TheThirdMax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/ThreeNumberSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/ThreeNumberSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/ValidMount.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/ValidMount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/WaterContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/WaterContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/array/YangHuiTriangle1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/array/YangHuiTriangle1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/ChangeCoins.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/ChangeCoins.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/DifferentRoutes.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/DifferentRoutes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/DifferentRoutes_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/DifferentRoutes_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/HouseRobber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/HouseRobber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/HouseRobber_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/HouseRobber_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/HowToBuyStocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/HowToBuyStocks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/LongestIncreasingSquence.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/LongestIncreasingSquence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/MINCostClimb.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/MINCostClimb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/MINLengthSub.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/MINLengthSub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/MaxPlusSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/MaxPlusSubArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/MaxSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/MaxSquare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/MaxSubarray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/MaxSubarray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/MinPathTotal.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/MinPathTotal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/OneAndZero.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/OneAndZero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/PerfectSquares.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/PerfectSquares.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/RegEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/RegEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/Stairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/Stairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/SumRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/SumRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/TriangleMinValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/TriangleMinValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/UniqueNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/UniqueNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dynamicProgramming/WordBreak.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dynamicProgramming/WordBreak.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/AtoiImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/AtoiImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/CheckPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/CheckPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/ExpectMe.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/ExpectMe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/FindMid.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/FindMid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/IntRevserse.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/IntRevserse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/IntegerBreaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/IntegerBreaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/MaxSubLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/MaxSubLength.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Nim.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Nim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Palindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/StringReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/StringReverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/WordsPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/WordsPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/leetcode/Z_zigzag.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/leetcode/Z_zigzag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/list/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/list/AddTwoNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/list/DeleteNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/list/DeleteNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/list/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/list/InsertSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/list/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/list/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/list/MIddleElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/list/MIddleElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/list/PrintListFromTailToHead.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/list/PrintListFromTailToHead.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/list/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/list/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/list/RemoveDup.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/list/RemoveDup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/list/RemoveLinkedListElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/list/RemoveLinkedListElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/list/RemoveNTHNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/list/RemoveNTHNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/list/ReverseLinkedLlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/list/ReverseLinkedLlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/AddDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/AddDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/ArangeCoins.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/ArangeCoins.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/BinaryWatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/BinaryWatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/BitOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/BitOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/BuNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/BuNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/Excel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/Excel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/ExcelTitle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/ExcelTitle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/FibonacciMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/FibonacciMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/FollowZeros.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/FollowZeros.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/HammingDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/HammingDistance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/HappyNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/HappyNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/MaxPerimeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/MaxPerimeter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/OneCounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/OneCounts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/PerfectNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/PerfectNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/PowerOfFour.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/PowerOfFour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/PowerOfThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/PowerOfThree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/PowerOfTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/PowerOfTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/PrimeNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/PrimeNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/SingleNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/SingleNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/SquaresSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/SquaresSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/UglyNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/UglyNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/math/ValidSqrt.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/math/ValidSqrt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/queens/NQueens.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/queens/NQueens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/queens/NQueensTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/queens/NQueensTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/search/BasicBinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/search/BasicBinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/search/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/search/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/search/FindRotateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/search/FindRotateArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/search/FirstAndLast.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/search/FirstAndLast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/search/SearchMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/search/SearchMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/search/SearchRotateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/search/SearchRotateArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/search/Sqrt.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/search/Sqrt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/H_Index.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sort/H_Index.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/InsertIntervals$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sort/InsertIntervals$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/InsertIntervals.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sort/InsertIntervals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/Interval.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sort/Interval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/KFrequentElement$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sort/KFrequentElement$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/KFrequentElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sort/KFrequentElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/KthLargest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sort/KthLargest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/LargestNumber$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sort/LargestNumber$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/LargestNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sort/LargestNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/LongestWord$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sort/LongestWord$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/LongestWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sort/LongestWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/MaxGap.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sort/MaxGap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/MergeIntervals$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sort/MergeIntervals$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/MergeIntervals.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sort/MergeIntervals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/ValidAnagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sort/ValidAnagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/sort/WiggleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sort/WiggleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/stack/BackspaceStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/stack/BackspaceStr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/stack/BaseBall.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/stack/BaseBall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/stack/EvalRPN.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/stack/EvalRPN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/stack/InOutSeq.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/stack/InOutSeq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/stack/ValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/stack/ValidParentheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/AddStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/AddStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/BinaryAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/BinaryAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/CheckPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/CheckPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/CheckWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/CheckWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/ComplexNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/ComplexNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/CompressStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/CompressStr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/DIString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/DIString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/FindDifferent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/FindDifferent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/FirstUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/FirstUnique.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/FizzBuzz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/FlipsMonoIncr.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/FlipsMonoIncr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/GoatLatin.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/GoatLatin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/IndexOf.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/IndexOf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/KeyboardRow.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/KeyboardRow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/LongPressedName.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/LongPressedName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/LongestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/LongestPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/MinTimeInterval.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/MinTimeInterval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/Palindrome2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/Palindrome2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/RansomNote.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/RansomNote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/RelativeString.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/RelativeString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/ReplaceSpace.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/ReplaceSpace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/ReverseVowels.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/ReverseVowels.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/RobotMoving.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/RobotMoving.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/StringReverse2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/StringReverse2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/StringReverse3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/StringReverse3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/StudentReward.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/StudentReward.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/SubstringMadeAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/SubstringMadeAll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/TheMostWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/TheMostWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/string/UniqueEmails.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/string/UniqueEmails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/AddTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/AddTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/AllPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/AllPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/BSTInseart.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/BSTInseart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/BSTcheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/BSTcheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/BSTupup.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/BSTupup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/BalancedTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/BalancedTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/Diameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/Diameter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/FindValueLD.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/FindValueLD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/Inorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/Inorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/LeftLeaves.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/LeftLeaves.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/Level.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/LevelAverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/LevelAverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/LevelEachMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/LevelEachMax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/LevelOfNXT.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/LevelOfNXT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/LevelTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/LevelTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/MaxDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/MaxDepth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/MaxDepthOfNXTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/MaxDepthOfNXTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/MergeTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/MergeTrees.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/MinDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/MinDepth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/PathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/PathSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/PathSumT.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/PathSumT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/PostOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/PostOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/PostOrderOfNXTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/PostOrderOfNXTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/PreOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/PreOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/PreOrderOfNXT.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/PreOrderOfNXT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/RebuildBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/RebuildBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/ReverseTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/ReverseTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/RightView.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/RightView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/SUM.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/SUM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/SameTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/SameTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/SearchBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/SearchBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/SimilarLeaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/SimilarLeaf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/Symmetric.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/Symmetric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/Target.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/Target.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/TreeToStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/TreeToStr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/UnivalTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/UnivalTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/tree/Zigzag.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tree/Zigzag.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,37 +232,40 @@
     <session id="916891204">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="6" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="35" />
+          <entry key="java" value="43" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="35" />
+          <entry key="JAVA" value="43" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="java" value="6463" />
+          <entry key="java" value="9956" />
           <entry key="md" value="39" />
           <entry key="txt" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6463" />
+          <entry key="JAVA" value="9956" />
           <entry key="Markdown" value="39" />
           <entry key="PLAIN_TEXT" value="66" />
         </counts>
@@ -57,8 +277,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/array/DistributeCandies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="90">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,11 +286,69 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/queens/NQueens.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tree/RebuildBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="270">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/array/NumSmallerByFrequency.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/string/IsIsomorphic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="44" column="44" lean-forward="true" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#936#957#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/list/Reorder_list.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/list/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,6 +387,10 @@
         <option value="$PROJECT_DIR$/src/array/ReOrderArray.java" />
         <option value="$PROJECT_DIR$/src/stack/InOutSeq.java" />
         <option value="$PROJECT_DIR$/src/tree/LevelErgodic.java" />
+        <option value="$PROJECT_DIR$/src/array/NumSmallerByFrequency.java" />
+        <option value="$PROJECT_DIR$/src/string/CompareVersionNumbers.java" />
+        <option value="$PROJECT_DIR$/src/string/IsIsomorphic.java" />
+        <option value="$PROJECT_DIR$/src/list/Reorder_list.java" />
       </list>
     </option>
   </component>
@@ -132,11 +414,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1220" />
-    <option name="height" value="700" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-35" />
+    <option name="y" value="10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -172,7 +454,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,19 +467,25 @@
               <item name="LearnLeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LearnLeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnLeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="climbStairs&#9;PSI&#9;JAVA://dynamicProgramming.Stairs#climbStairs&#10;jump&#9;FILE&#9;file://D:/j_resourse/LearnLeetCode/src/array/JumpGame.java" />
+    <property name="SearchEverywhereHistoryKey" value="singleNumber&#9;FILE&#9;file://D:/j_resourse/LearnLeetCode/src/math/SingleNumber.java&#10;climbStairs&#9;PSI&#9;JAVA://dynamicProgramming.Stairs#climbStairs&#10;jump&#9;FILE&#9;file://D:/j_resourse/LearnLeetCode/src/array/JumpGame.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569147354168" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578281246373" />
+    <property name="last_opened_file_path" value="D:/idea_projects/customer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -217,7 +505,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InOutSeq">
+  <component name="RunManager" selected="Application.CompareVersionNumbers">
     <configuration name="AddDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="math.AddDigits" />
       <module name="LearnLeetCode" />
@@ -244,6 +532,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CompareVersionNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.CompareVersionNumbers" />
+      <module name="LearnLeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InOutSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.InOutSeq" />
       <module name="LearnLeetCode" />
@@ -257,12 +558,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedLlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.ReverseLinkedLlist" />
+    <configuration name="NumSmallerByFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.NumSmallerByFrequency" />
       <module name="LearnLeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="list.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,17 +572,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseLinkedLlist" />
       <item itemvalue="Application.AddDigits" />
       <item itemvalue="Application.AddStrings" />
       <item itemvalue="Application.InOutSeq" />
+      <item itemvalue="Application.NumSmallerByFrequency" />
+      <item itemvalue="Application.CompareVersionNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompareVersionNumbers" />
+        <item itemvalue="Application.NumSmallerByFrequency" />
         <item itemvalue="Application.InOutSeq" />
         <item itemvalue="Application.AddStrings" />
         <item itemvalue="Application.AddDigits" />
-        <item itemvalue="Application.ReverseLinkedLlist" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +602,15 @@
       <workItem from="1568883131059" duration="19413000" />
       <workItem from="1568954060787" duration="15530000" />
       <workItem from="1569048193713" duration="2017000" />
-      <workItem from="1569141921093" duration="5265000" />
+      <workItem from="1569141921093" duration="6151000" />
+      <workItem from="1569285999244" duration="29000" />
+      <workItem from="1571012866727" duration="2192000" />
+      <workItem from="1571219296501" duration="30000" />
+      <workItem from="1571618169146" duration="182000" />
+      <workItem from="1572829156289" duration="16772000" />
+      <workItem from="1573721498659" duration="8000" />
+      <workItem from="1578272246693" duration="904000" />
+      <workItem from="1578275892477" duration="5120000" />
     </task>
     <task id="LOCAL-00001" summary="剑指offer start">
       <created>1568888152219</created>
@@ -382,13 +693,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43839000" />
+    <option name="totallyTimeSpent" value="69962000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17962466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,8 +708,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.194051" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.49008498" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.059490085" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32152975" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -406,7 +717,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.15439093" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.27903682" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -475,13 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/math/SingleNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -496,16 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/list/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#171#172#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -548,16 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/queens/NQueens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-432">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -579,9 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
           <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,24 +908,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/DistributeCandies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/Level.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-          <folding>
-            <element signature="e#561#576#0" expanded="true" />
-            <element signature="e#656#666#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,11 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#278#287#0" expanded="true" />
-            <element signature="e#548#558#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,9 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-13">
           <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -691,10 +950,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/math/SingleNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/CompareVersionNumbers.java" />
+    <entry file="file://$PROJECT_DIR$/src/array/DistributeCandies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queens/NQueens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/RebuildBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/NumSmallerByFrequency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/IsIsomorphic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="44" column="44" lean-forward="true" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#936#957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/list/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/list/Reorder_list.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
